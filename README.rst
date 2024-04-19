@@ -5,7 +5,7 @@
 人工智能辅助药物设计工具集合
 </p>
 </p>
-
+<p align="center">
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/license/zhaisilong/mazeai" alt="mit kicense"/></a>
 <a href="https://pypi.org/project/mazeai/"><img src="https://img.shields.io/pypi/v/mazeai" alt="pypi version"/></a>
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/v/release/zhaisilong/mazeai" alt="github release"/></a>
@@ -15,19 +15,26 @@
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/stars/zhaisilong/mazeai" alt="github repo stars"/></a>
 </p>
 
-## 前言
+前言
+------
 
-## 环境安装
+环境安装
+---------
 
-```bash
-pip install mazeai
-pytest tests  # 测试包
-```
+.. code-block:: bash
+   
+   pip install mazeai
+   pytest tests  # 测试包
 
-## 功能
+功能
+------
 
-### 化学 chem
+化学 chem
+~~~~~~~~~~~
 
-### 网络 network
+网络 network
+~~~~~~~~~~~~~
 
-## 其他
+其他
+------
+

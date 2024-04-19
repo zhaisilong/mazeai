@@ -2,6 +2,15 @@
 
 所有重要的版本更改都将在此处记录。
 
+## [0.0.5] - 2024-04-19
+
+- 加入 Read The Docs，参考[博文](https://zhaisilong.com/index.php/archives/readthedocs.html)
+
+```bash
+pip install sphinx sphinx-autobuild sphinx_rtd_theme
+
+```
+
 ## [0.0.4] - 2024-04-19
 
 ### Added - Failed
