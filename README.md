@@ -6,6 +6,7 @@
 </p>
 </p>
 
+<p align="center">
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/license/zhaisilong/mazeai" alt="mit kicense"/></a>
 <a href="https://pypi.org/project/mazeai/"><img src="https://img.shields.io/pypi/v/mazeai" alt="pypi version"/></a>
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/v/release/zhaisilong/mazeai" alt="github release"/></a>

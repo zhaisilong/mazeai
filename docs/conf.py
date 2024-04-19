@@ -12,7 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.insert(0, os.path.abspath(".."))
 from maze.__version__ import __version__
 
 
@@ -26,18 +27,17 @@ author = "zhaisilong"
 release = __version__
 
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark',  # 支持 markdown
-    'sphinx_markdown_tables',  # 支持 markdown 的 table
-    'sphinx.ext.mathjax',  # 支持数学
-    'sphinx.ext.todo',  # 支持
-    'sphinx.ext.autodoc',  # 支持文本 引用
+    "recommonmark",  # 支持 markdown
+    "sphinx_markdown_tables",  # 支持 markdown 的 table
+    "sphinx.ext.mathjax",  # 支持数学
+    "sphinx.ext.todo",  # 支持
+    "sphinx.ext.autodoc",  # 支持文本 引用
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -62,6 +62,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 import sphinx_rtd_theme
+
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
@@ -71,18 +72,16 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
 if on_rtd:
     latex_elements = {
         # The paper size ('letterpaper' or 'a4paper').
         # 'papersize': 'letterpaper',
-
         # The font size ('10pt', '11pt' or '12pt').
         # 'pointsize': '10pt',
-
         # Additional stuff for the LaTeX preamble.
-        'preamble': r'''
+        "preamble": r"""
     \hypersetup{unicode=true}
     \usepackage{CJKutf8}
     \DeclareUnicodeCharacter{00A0}{\nobreakspace}
@@ -97,15 +96,15 @@ if on_rtd:
     \DeclareUnicodeCharacter{2297}{\ensuremath{\otimes}}
     \begin{CJK}{UTF8}{gbsn}
     \AtEndDocument{\end{CJK}}
-    ''',
+    """,
     }
 else:
     latex_elements = {
-        'papersize': 'a4paper',
-        'utf8extra': '',
-        'inputenc': '',
-        'babel': r'''\usepackage[english]{babel}''',
-        'preamble': r'''
+        "papersize": "a4paper",
+        "utf8extra": "",
+        "inputenc": "",
+        "babel": r"""\usepackage[english]{babel}""",
+        "preamble": r"""
         \usepackage{ctex}
-        ''',
+        """,
     }
