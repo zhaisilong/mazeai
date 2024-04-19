@@ -4,4 +4,4 @@ rm -r dist
 python3 setup.py sdist bdist_wheel
 python3 -m twine upload dist/*
 
-.github/workflows/publish-to-test-pypi.yml 
+.github/workflows/publish-to-test-pypi.yml
