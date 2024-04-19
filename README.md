@@ -10,6 +10,8 @@
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/license/zhaisilong/mazeai" alt="mit kicense"/></a>
 <a href="https://pypi.org/project/mazeai/"><img src="https://img.shields.io/pypi/v/mazeai" alt="pypi version"/></a>
 <a href="https://github.com/zhaisilong/mazeai/"><img src="https://img.shields.io/github/v/release/zhaisilong/mazeai" alt="github release"/></a>
+<a href='https://mazeai.readthedocs.io/zh/latest/?badge=latest'><img src='https://readthedocs.org/projects/mazeai/badge/?version=latest' alt='Documentation Status'/>
+</a>
 </p>
 
 <p align="center">
