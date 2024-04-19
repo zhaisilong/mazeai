@@ -10,6 +10,8 @@
 <a href="https://pypi.org/project/mazeai/"><img src="https://img.shields.io/pypi/v/mazeai" alt="pypi version"/></a>
 </p>
 
+![Conda Version](https://img.shields.io/conda/v/mazeai/mazeai.svg)
+
 ## 前言
 
 ## 环境安装
