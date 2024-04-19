@@ -1,0 +1,5 @@
+rich
+ipykernel
+tqdm
+loguru
+hydra-core
