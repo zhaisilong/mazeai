@@ -16,4 +16,15 @@
 
 ## 环境安装
 
+```bash
+pip install mazeai
+pytest tests  # 测试包
+```
+
+## 功能
+
+### 化学 chem
+
+### 网络 network
+
 ## 其他
