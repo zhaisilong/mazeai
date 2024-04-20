@@ -45,6 +45,9 @@ setup(
         "loguru",
         "hydra-core",
     ],
+    extras_require={
+        'chem': ['jpype1'],  # 可选的绘图支持
+    },
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: MIT License",

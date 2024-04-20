@@ -27,10 +27,12 @@ pip install mazeai
 pytest tests  # 测试包
 ```
 
-## 功能
+## Features
 
 ### 化学 chem
 
 ### 网络 network
 
-## 其他
+## 贡献者
+
+
