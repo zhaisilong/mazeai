@@ -2,6 +2,11 @@
 
 所有重要的版本更改都将在此处记录。
 
+## [0.0.6] - 2024-04-20
+
+- 添加代码
+- 增加文档
+
 ## [0.0.5] - 2024-04-19
 
 - 加入 Read The Docs，参考[博文](https://zhaisilong.com/index.php/archives/readthedocs.html)

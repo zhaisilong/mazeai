@@ -10,11 +10,9 @@ Welcome to mazeai's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   项目介绍 <introduction>
-   项目教程 <tutorial>
-   投资圣杯 <holy-grail/index>
-   开发日志 <development>
-   网站推荐 <websites>
+   项目介绍 <intro>
+   化学 <chem>
+   网络 <network>
 
 Indices and tables
 ==================
