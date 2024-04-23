@@ -2,11 +2,18 @@
 
 所有重要的版本更改都将在此处记录。
 
+## [0.0.7] - 2024-04-23
+
+### Added
+
+- 引入 [MolVS](https://molvs.readthedocs.io/en/latest)
+
 ## [0.0.6] - 2024-04-20
 
 ### Added
 
 - 在 Python 中编写一个支持 pip extra 选项的包
+- chem: 标志符转 smiles 两种方式
 
 ### Fixed
 

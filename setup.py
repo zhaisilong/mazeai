@@ -46,7 +46,7 @@ setup(
         "hydra-core",
     ],
     extras_require={
-        'chem': ['jpype1'],  # 可选的绘图支持
+        'chem': ['jpype1', 'molvs'],  # 可选的绘图支持
     },
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
