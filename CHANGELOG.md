@@ -2,11 +2,17 @@
 
 所有重要的版本更改都将在此处记录。
 
+## [0.0.8] - 2024-05-28
+
+### Added
+
+- 开始添加 Notebooks for All Kinds of tools
+
 ## [0.0.7] - 2024-04-23
 
 ### Added
 
-- 引入 [MolVS](https://molvs.readthedocs.io/en/latest)
+- 引入 [MolVS](https://molvs.readthedocs.io/en/latest) 用于分子 SMILES 的预处理
 
 ## [0.0.6] - 2024-04-20
 
@@ -17,7 +23,7 @@
 
 ### Fixed
 
-- Readthedocs 左下角打不开: 去掉 `conf.py` 中的 pdf 注释（消除了首页乱码），然后将 `python` 版本从 `3.12` 改为 `3.7`  即可
+- Readthedocs 左下角打不开: 去掉 `conf.py` 中的 pdf 注释（消除了首页乱码），然后将 `python` 版本从 `3.12` 改为 `3.7` 即可
 
 ## [0.0.5] - 2024-04-19
 
@@ -34,7 +40,7 @@
 mamba install anaconda-client
 anaconda login
 
-# 这种方式上传到 anaconda cloud 
+# 这种方式上传到 anaconda cloud
 python setup.py sdist
 version="0.0.3"
 anaconda upload dist/mazeai-"${version}".tar.gz
