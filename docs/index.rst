@@ -13,6 +13,7 @@ Welcome to mazeai's documentation!
    项目介绍 <intro>
    化学 <chem>
    网络 <network>
+   Protein <protein> 
 
 Indices and tables
 ==================

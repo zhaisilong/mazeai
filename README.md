@@ -22,33 +22,36 @@
   </a>
 </p>
 
-## 前言
+## Preface
 
-MAZE AI 是一款集合了多种人工智能技术的辅助药物设计工具，旨在为科研人员提供高效、便捷的药物设计解决方案。
+🚀 MAZE AI is an auxiliary drug design tool that integrates various artificial intelligence technologies, aimed at providing researchers with efficient and convenient drug design solutions.
 
-## 环境安装
+## Setups
 
-通过以下命令可以快速安装 MAZE AI：
+For a quick installation of MAZE AI, follow the steps below:
 
 ```bash
 pip install mazeai
 pytest tests  # 测试包
 ```
 
-## 学习
+For development instructions, please refer to the following:
 
-在 `notebook` 目录下提供了各种科研以及编码工具的使用教程，帮助用户快速上手。
+```bash
+git clone https://github.com/zhaisilong/mazeai.git
+cd mazai
+pip install -e .
+```
 
-## 功能特性
+## Tutorials
 
-### 化学 (Chem)
+In the `notebook` directory, various tutorials on scientific research and coding tools are provided to help users quickly get started.
 
-MAZE AI 提供了一系列化学相关的功能，包括分子建模、反应预测、化合物筛选等。
+## Contributors
 
-### 网络 (Network)
+We extend our gratitude to all the developers and researchers who have contributed to MAZE AI.
+Your efforts have made this tool more robust and powerful.
 
-MAZE AI 也涵盖了网络分析功能，支持分子网络的构建与分析。
+📮
 
-## 贡献者
-
-感谢所有为 MAZE AI 做出贡献的开发者和科研人员。你的贡献让这款工具变得更加完善和强大。
+- zhaisilong: `zhaisilong@outlook.com`
