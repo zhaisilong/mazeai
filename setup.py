@@ -22,7 +22,7 @@ def version():
 
 
 setup(
-    name="mazeai",
+    name="maze",
     version=version(),
     url="https://github.com/zhaisilong/mazeai",
     license="MIT",
@@ -32,6 +32,7 @@ setup(
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     packages=find_packages(where=".", exclude=("tests",), include=("*")),
+    # packages=["maze"],
     package_data={"maze": ["resource/*"]},
     entry_points={
         "console_scripts": [
