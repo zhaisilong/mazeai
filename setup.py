@@ -31,8 +31,7 @@ setup(
     description="A General Tool Set for Science Researches",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    packages=find_packages(where=".", exclude=("tests",), include=("*")),
-    # packages=["maze"],
+    packages=["maze"],
     package_data={"maze": ["resource/*"]},
     entry_points={
         "console_scripts": [
@@ -47,7 +46,7 @@ setup(
         "hydra-core",
     ],
     extras_require={
-        'chem': ['jpype1', 'molvs'],  # 可选的绘图支持
+        "chem": ["jpype1", "molvs"],  # 可选的绘图支持
     },
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
